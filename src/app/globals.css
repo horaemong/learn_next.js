@@ -57,3 +57,12 @@ h6 {
   width: 67%;
   background-color: darkkhaki;
 }
+/* list */
+.food {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}

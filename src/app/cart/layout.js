@@ -1,14 +1,12 @@
 import Link from "next/link";
-import "./globals.css";
+import "../globals.css";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head></head>
       <body>
-        <div className="header">
-          <Link href="/">이미지</Link>
-        </div>
+        <p>현대카드 무이자이벤트중</p>
         {children}
       </body>
     </html>

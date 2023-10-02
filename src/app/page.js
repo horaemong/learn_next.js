@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <div className="container">
-      <div className="header">이미지</div>
       <div className="content">
         <div className="left">
           <div className="left_header p3 upperline">
