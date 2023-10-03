@@ -1,13 +1,15 @@
 export default function List() {
+  let products = ["Tomato", "Pasta", "Coconut"];
   return (
     <div>
       <h2>Products</h2>
-      <div className="food">
-        <h4>상품명 $40</h4>
-      </div>
-      <div className="food">
-        <h4>상품명 $40</h4>
-      </div>
+      {products.map((product, index) => {
+        return (
+          <div className="food" key={index}>
+            <h4>{product} $40</h4>
+          </div>
+        );
+      })}
     </div>
   );
 }
